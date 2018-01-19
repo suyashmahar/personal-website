@@ -1,0 +1,43 @@
+#footerHorzRule {
+    padding-left:10%;
+    padding-right:10%;
+}
+
+div.outer-contact-box {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+div.inner-contact-box {
+    display: inline-block;
+    text-align: left;
+}
+
+table.contact-box {
+    width: 100%;
+}
+
+img.author-img {
+    width: 220px;
+    margin-top: 3%
+}
+
+div.content-panel {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+}
+
+nav.nav-padding {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+a.font-normal {
+    font-weight: normal;
+}
+
+p.gray-fg {
+    color: #777;
+}

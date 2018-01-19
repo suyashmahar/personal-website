@@ -3,14 +3,15 @@
   <head>    
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
     <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.0.0-beta.4/dist/css/bootstrap-material-design.min.css" integrity="sha384-R80DC0KVBO4GSTw+wZ5x2zn2pu4POSErBkf8/fSFhPXHxvHJydT0CSgAP2Yo2r4I" crossorigin="anonymous">
-    <title>Suyash Mahar</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Kenneth C. Ramos</title>
   </head>
 
   <body>
     <!--Content starts here-->
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary" style="padding-left: 10%; padding-right: 10%;">
-      <a class="navbar-brand" style="padding-left: 1px;" href="#">Suyash Mahar</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary nav-padding">
+      <a class="navbar-brand" href="#">Suyash Mahar</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
 	<span class="navbar-toggler-icon"></span>
       </button>
@@ -32,10 +33,10 @@
     <div class="jumbotron jumbotron-fluid">
       <div class="container">
 	<h1 class="display-3">About me</h1>
-	<p class="lead">I'm a second year undergraduate in electronics and communication engineering at <a href="http://iitr.ac.in" class="alert-link" style="font-weight:normal;">IIT Roorkee</a> with interest in <a href="https://en.wikipedia.org/wiki/Heterogeneous_computing" style="font-weight:normal;" class="alert-link">heterogeneous computing</a> and FPGA based accelerators. My resume is available <a href="#" class="alert-link" style="font-weight:normal;">here</a>.</p>
+	<p class="lead">I'm a second year undergraduate in electronics and communication engineering at <a href="http://iitr.ac.in" class="alert-link font-normal">IIT Roorkee</a> with interest in <a href="https://en.wikipedia.org/wiki/Heterogeneous_computing" class="alert-link font-normal">heterogeneous computing</a> and FPGA based accelerators. My resume is available <a href="#" class="alert-link font-normal">here</a>.</p>
       </div>
     </div>
-    <div class="row" style="padding-left: 10%; padding-right: 10%; padding-top: 2%";> 
+    <div class="row content-panel"> 
       <div class="col-md-8">
 	
 	<p/> 
@@ -95,14 +96,14 @@
       
       <div class="col-md-4">
 	<center>
-	  <img src="./resources/img/pic.jpg" alt="author_image" class="img-thumbnail" style="width: 220px; margin-top: 3%">
+	  <img src="./pic.png" alt="author_image" class="img-thumbnail author-img">
 	  <p>
 	    <h3 class="bd-title" id="content">Contact info</h3>  
 	</center>
 	
-	<div style = "text-align: center; margin-left: 10%; margin-right: 10%">
-	  <div style = "display: inline-block; text-align: left;">
-	    <table style="width:100%;">
+	<div class="outer-contact-box">
+	  <div class="inner-contact-box">
+	    <table class="contact-box">
 	      <tr>
 		<td><img src="./resources/email-box.svg" alt="email"></td>
 		<td><a target="_blank" href="#" class="alert-link" href="mailto:contact@suyashmahar.me">contact@suyashmahar.me</a></td>
@@ -113,7 +114,11 @@
 	      </tr>
 	      <tr>
 		<td><img src="./resources/location-box.svg" alt="location"></td>
-		<td>India</td>
+		<td>3651 Spring Haven Trail</td>
+	      </tr>
+	      <tr>
+		<td></td>
+		<td>Newark, NJ 07102</td>
 	      </tr>
 	    </table>
 	  </div>
@@ -124,8 +129,8 @@
     <footer class="footer">
       <center>
 	<p/>
-	<hr style="padding-left:10%;padding-right=10%;">
-	<p style="color: #777;">© 2018 Suyash Mahar<p/>
+	<hr id="footerHorzRule">
+	<p class="gray-fg">© 2018 Suyash Mahar<p/>
 	<p/>
       </center>
     </footer>
