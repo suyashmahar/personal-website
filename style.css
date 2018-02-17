@@ -24,8 +24,8 @@ img.author-img {
 }
 
 div.content-panel {
-    padding-left: 10%;
-    padding-right: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
     padding-top: 2%;
 }
 
@@ -40,4 +40,42 @@ a.font-normal {
 
 p.gray-fg {
     color: #777;
+}
+
+div.info-box {
+    padding-top: 4rem;
+    padding-right: 10%;
+    padding-bottom: 4rem;
+    padding-left: 10%;
+    background-color: #e9ecef;
+}
+
+p.info-box-text {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+img.info-box-img {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    width:70%;
+}
+
+div.long-content {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+div.tabular-content-padding {
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
+
+#info-column-text {
+    width: 75%;
+}
+
+#info-column-image {
+    width: 25%;
 }
