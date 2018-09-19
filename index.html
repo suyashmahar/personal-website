@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>    
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
-    <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.0.0-beta.4/dist/css/bootstrap-material-design.min.css" integrity="sha384-R80DC0KVBO4GSTw+wZ5x2zn2pu4POSErBkf8/fSFhPXHxvHJydT0CSgAP2Yo2r4I" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="font-roboto.css">
+    <link rel="stylesheet" type="text/css" href="material-bootstrap.css">
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>Dr. Bishnu Prasad Das</title>
   </head>
@@ -43,9 +43,10 @@
       <h1 class="bd-title">About Me</h1>
 
       <div class="row">
-	<div class="col-md-9">
+	<div class="col-md-8">
 	  <!-- Owner's description starts here -->
 	  <p class="info-box-text">
+	    <p id="defaultDescriptionText">
 	    Bishnu Prasad Das obtained the Ph.D. degree in
 	    electronics design and technology from Indian Institute
 	    of Science (IISc), Bangalore, India, in 2009. He was
@@ -53,7 +54,12 @@
 	    Instruments University Program during his Ph.D. He is
 	    currently an assistant professor in the Department of
 	    Electronics and Communication Engineering, IIT,
-	    Roorkee. During July 2012 to Dec 2013, he worked as a
+	    Roorkee.
+	    </p>
+	    <!-- Controls for showing/hiding content -->
+	    <input id="textAreaToggle" type="checkbox" />
+	    <p id="textarea">
+	    During July 2012 to Dec 2013, he worked as a
 	    Post-Doctoral Researcher with the Department of
 	    Electrical and Computer Engineering, Carnegie Mellon
 	    University, Pittsburgh, USA, in the project entitled
@@ -65,10 +71,12 @@
 	    design, on-chip process variability measurement, design
 	    of sub-threshold, variation tolerant standard cell
 	    library and hardware security
+	    </p>
+	    <label for="textAreaToggle" class="btn btn-link text-primary"></label>
 	  </p>
 	  <!-- Owner's description ends here -->
 	</div>
-	<div class="col-md-3">
+	<div class="col-md-4">
 	  <!-- Owner's image here -->
 	  <img src="./resources/bpdasfec_4AM40Dz.jpg" alt="author_image" class="img-thumbnail info-box-img">
 	  <!-- Owner's image ends here -->

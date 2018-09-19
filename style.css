@@ -48,6 +48,7 @@ div.info-box {
     padding-bottom: 4rem;
     padding-left: 10%;
     background-color: #e9ecef;
+    font-size:larger;
 }
 
 p.info-box-text {
@@ -59,7 +60,8 @@ img.info-box-img {
     margin-right: auto;
     margin-left: auto;
     display: block;
-    width:70%;
+    width:100%;
+    max-width:15em;
 }
 
 div.long-content {
@@ -88,3 +90,39 @@ div.tabular-content-padding {
     text-align: center;
 }
 */
+
+/*
+ * CSS for collapsing description text
+ */
+#textarea {
+    /* hide by default: */
+    display: none;
+}
+
+/* when the checkbox is checked, show the neighbouring #textarea element: */
+#textAreaToggle:checked + #textarea {
+    display: block;
+}
+
+/* position the checkbox off-screen: */
+input[type="checkbox"] {
+    position: absolute;
+    left: -1000px;
+}
+
+/* Aesthetics only, adjust to taste: */
+label {
+    display: block;
+}
+
+/* when the checkbox is unchecked (its default state) show the text
+   'Show ' in the label element: */
+#textAreaToggle + #textarea + label::before {
+    content: 'Show more';
+}
+
+/* when the checkbox is checked 'Hide ' in the label element; the
+   general-sibling combinator '~' is required for a bug in Chrome: */
+#textAreaToggle:checked ~ #textarea + label::before {
+    content: 'Show less';
+}
