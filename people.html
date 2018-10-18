@@ -7,39 +7,47 @@
     <title>Dr. Bishnu Prasad Das</title>
   </head>
 
-  <body>
+  <body data-gr-c-s-loaded="true">
     <!--Content starts here-->
-
     <!-- Navigation bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary nav-padding">
-      <a class="navbar-brand" href="#">Dr. Bishnu Prasad Das</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-	<span class="navbar-toggler-icon"></span>
-      </button>
+    <div class="container-fluid">
+      <div class="row">
+	<nav class="col-md-2 d-none d-md-block bg-light sidebar pt-3 top-margin-start">
+	  <div class="sidebar-sticky">
+	    <ul class="nav flex-column">
+	      <li class="nav-item">
+                <a class="nav-link active" href="./index.html">
+                  Home <span class="sr-only">(current)</span>
+                </a>
+	      </li>
+	      <li class="nav-item">
+                <a class="nav-link active" href="./experiences.html">
+                  Experiences <span class="sr-only"></span>
+                </a>
+	      </li>
+	      <li class="nav-item">
+                <a class="nav-link active" href="./teaching_and_publications.html">
+                  Teaching and Publication <span class="sr-only"></span>
+                </a>
+	      </li>
+	      <li class="nav-item">
+                <a class="nav-link active" href="./people.html">
+                  <b>People</b> <span class="sr-only"></span>
+                </a>
+	      </li>
+	      <li class="nav-item">
+                <a class="nav-link active" href="./contact.html">
+                  Contact <span class="sr-only"></span>
+                </a>
+	      </li>
 
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-	<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-	  <li class="nav-item active">
-	    <a class="nav-link" href="./index.html">Home</a>
-	  </li>
-	  <li class="nav-item active">
-	    <a class="nav-link" href="./experiences.html">Experiences</a>
-	  </li>
-	  <li class="nav-item active">
-	    <a class="nav-link" href="./teaching_and_publications.html">Teaching & Publications</a>
-	  </li>
-	  <li class="nav-item active">
-	    <a class="nav-link" href="./people.html">People<span class="sr-only">(current)</span></a>
-	  </li>
-	  <li class="nav-item active">
-	    <a class="nav-link" href="./contact.html">Contact</a>
-	  </li>
-	</ul>
-      </div>
-    </nav>
-
-    <!-- Define box containing owner's introduction and image -->
-
+	    </ul>
+	  </div>
+	</nav>
+	<!-- Define box containing owner's introduction and image -->
+	<br>
+	
+	<main class="col-md-9 ml-sm-auto col-lg-10 px-4" role="main">    
     <div class="tabular-content-padding">
       <br>
       <h2 class="bd-title">People</h2>
@@ -62,16 +70,6 @@
 	</ul>
       </div>
     </div>
-
-    <!-- Copyright information on footer -->
-    <footer class="footer">
-      <center>
-	<p/>
-	<hr id="footerHorzRule">
-	  <p class="gray-fg">&#169; 2018 Dr. Bishnu Prasad Das<p/>
-	<p/>
-      </center>
-    </footer>
 
     <!-- Scripts for animations -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

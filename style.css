@@ -29,6 +29,9 @@ div.content-panel {
     padding-top: 2%;
 }
 
+div.top-margin-start {
+    padding-top: 
+}
 nav.nav-padding {
     padding-left: 10%;
     padding-right: 10%;
@@ -70,8 +73,8 @@ div.long-content {
 }
 
 div.tabular-content-padding {
-    padding-left: 15vw;
-    padding-right: 15vw;
+    padding-left: 5vw;
+    padding-right: 0vw;
 }
 
 #info-column-text {
