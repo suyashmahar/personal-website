@@ -32,6 +32,10 @@ div.content-panel {
 div.top-margin-start {
     padding-top: 
 }
+div.margin-left-right {
+    margin-right: 0%;
+    margin-left: 13%;
+}
 nav.nav-padding {
     padding-left: 10%;
     padding-right: 10%;
